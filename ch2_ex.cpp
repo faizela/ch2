@@ -45,8 +45,8 @@ void diagonal () {
         cout << '#';
         
         
-    cout << '\n';
     }
+    cout << '\n';
     
 }
 
