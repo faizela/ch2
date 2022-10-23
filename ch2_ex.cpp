@@ -40,15 +40,30 @@ for (int row = 1; row <=4; row++)
 }
 
 void diagonal () {
-
     for (int row = 1; row <=3; row++){
-        cout << '#';
-        
-        
+        for (int hashnum = 1; hashnum <=3; hashnum++){
+                if (row == 1 && hashnum == 1){
+                    cout << '#';
+                }
+                else if (row == 2 && hashnum == 2){
+                    cout << '#';
+                }
+                else if (row == 3 && hashnum == 3){
+                    cout << '#';
+                }
+                else {
+                    cout << '-';
+                }
+        }
+                
+         cout << '\n';
+
     }
-    cout << '\n';
-    
+        
+        
 }
+    
+    
 
 
 int main () {
